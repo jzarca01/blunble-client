@@ -1,0 +1,12 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dashboard .dashboard-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+}

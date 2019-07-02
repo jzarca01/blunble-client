@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: column;
+}
+
+.header .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header .content img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header .content span {
+    margin-right: 5px;
+}
